@@ -31,3 +31,21 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# For Kotlin MultiPlatform Projects
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
